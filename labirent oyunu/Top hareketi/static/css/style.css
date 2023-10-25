@@ -1,0 +1,37 @@
+html,body
+{
+  padding: 0;
+  margin: 0;;
+  height: 100%;
+}
+
+  #ball {
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: absolute;
+    left: 160px; /* Topun yolu takip etmesi için yolun içinde başlatın */
+    top: 165px;  /* Topun yolu takip etmesi için yolun içinde başlatın */
+    z-index: 2; /* Topu yolu üzerine yerleştirin */
+  }
+  .dik{
+    width: 10px;
+    height: 100px;
+  }
+  .yatay{
+    width: 100px;
+    height: 10px;
+  }
+  .kaya{
+    background-color: #c40a0a;
+    position: absolute;
+  }
+
+  #container
+  {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rebeccapurple;
+  }
